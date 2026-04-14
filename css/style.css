@@ -301,12 +301,18 @@ body {
   .bottom{
   font-size: 20px;
   }
-}
 
 .main {
-    width: 120px;
-    height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 140px;
+  aspect-ratio: 1 / 1;
   }
+
+
+}
+
 
 /* =============================
    スクロールアニメーション共通

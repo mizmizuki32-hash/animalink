@@ -466,6 +466,7 @@ body {
   .anima-card p {
     width: 80%;      /* ←こっちもアリ */
     font-size: 11px; /* 少し小さく */
+	font-weight: bold;
 
   }
 }
@@ -581,6 +582,7 @@ body {
   text-align: center;
   font-size: 14px;
   line-height: 1.4;
+  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
 }
 
 /* 色 */
@@ -602,6 +604,7 @@ body {
   transform: translateY(10px);
   transition: opacity 0.6s ease 0.6s, transform 0.6s ease 0.6s;
   display: inline-block;
+  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
 }
 
 .pet-link:hover {
@@ -618,6 +621,12 @@ body {
   .pet-grid {
     grid-template-columns: repeat(3, 1fr);
     max-width: 900px; /* 少し広げるとバランスいい */
+  }
+  
+  .pet-label{
+  width: 70px;
+  height: 70px;
+  font-size: 12px;
   }
 }
 
